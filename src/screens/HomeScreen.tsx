@@ -37,6 +37,7 @@ export const HomeScreen = ({}: HomeScreenPropsType) => {
                 {/*Categories*/}
                 <Categories/>
                 {/*Feature*/}
+                <FeatureRow id="1" title={"Offers near You"} description={"Great offers near you"}/>
                 <FeatureRow id="1" title={"Feature"} description={"Paid place from your investors"}/>
                 <FeatureRow id="2" title={"Great Discounts"} description={"Paid place from your investors"}/>
                 <FeatureRow id="3" title={"Good Offers"} description={"Paid place from your investors"}/>
