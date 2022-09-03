@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Image, Text, TouchableOpacity, View} from 'react-native';
 import {StarIcon} from "react-native-heroicons/solid";
 import {MapPinIcon} from "react-native-heroicons/outline";
 import {useAppNavigation} from "../screens/typesNavigation";
