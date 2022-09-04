@@ -8,6 +8,7 @@ export type RootStackParamList = {
     RestaurantScreen: { data: RestaurantCardPropsType }
     BasketScreen: undefined
     PreparingOrderScreen: undefined
+    DeliveryScreen: undefined
 }
 
 

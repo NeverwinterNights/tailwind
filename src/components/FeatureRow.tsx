@@ -26,7 +26,7 @@ export const FeatureRow = ({id, title, description}: FeatureRowPropsType) => {
                 {/*Restaurant Cards*/}
                 <RestaurantCard id={id} imgUri="https://img.gazeta.ru/files3/33/8135033/eda1-pic905-895x505-299.jpg"
                                 title="Borch Restaurant" rating={4.5} genre="France" address="45 street" description="Tasty borch"
-                                dishes={dishes} long={3453} lat={434345}/>
+                                dishes={dishes} long={-118.146442} lat={33.899039}/>
                 <RestaurantCard id={id} imgUri="https://img.gazeta.ru/files3/33/8135033/eda1-pic905-895x505-299.jpg"
                                 title="Vegeterian Green Restaurant" rating={4.5} genre="Monaco" address="45 street" description="Tasty borch"
                                 dishes={dishes} long={3453} lat={434345}/>

@@ -10,6 +10,7 @@ import {Provider} from "react-redux";
 import {store} from "./store/store";
 import {BasketScreen} from "./src/screens/BasketScreen";
 import {PreparingOrderScreen} from "./src/screens/PreparingOrderScreen";
+import {DeliveryScreen} from "./src/screens/DeliveryScreen";
 
 
 export default function App() {
@@ -28,6 +29,8 @@ export default function App() {
                             <Stack.Screen name="BasketScreen" component={BasketScreen}
                                           options={{headerShown: false, animation: "slide_from_bottom"}}/>
                         <Stack.Screen name="PreparingOrderScreen" component={PreparingOrderScreen}
+                                      options={{headerShown: false, presentation:"fullScreenModal"}}/>
+                        <Stack.Screen name="DeliveryScreen" component={DeliveryScreen}
                                       options={{headerShown: false, presentation:"fullScreenModal"}}/>
                     </Stack.Navigator>
                     <StatusBar style="auto"/>
